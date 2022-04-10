@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="MavenProject.ExtentReports.SampleTest" duration-ms="15340" started-at="2022-04-07T10:59:21 EDT" finished-at="2022-04-07T10:59:37 EDT">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="15340" started-at="2022-04-07T10:59:21 EDT" finished-at="2022-04-07T10:59:37 EDT">
+      <class name="MavenProject.ExtentReports.SampleTest">
+        <test-method status="PASS" signature="config()[pri:0, instance:MavenProject.ExtentReports.SampleTest@3b088d51]" name="config" is-config="true" duration-ms="306" started-at="2022-04-07T10:59:21 EDT" finished-at="2022-04-07T10:59:22 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:MavenProject.ExtentReports.SampleTest@3b088d51]" name="test1" duration-ms="14966" started-at="2022-04-07T10:59:22 EDT" finished-at="2022-04-07T10:59:37 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+      </class> <!-- MavenProject.ExtentReports.SampleTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- MavenProject.ExtentReports.SampleTest -->
+</testng-results>

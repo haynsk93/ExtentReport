@@ -43,6 +43,15 @@ public void demo() {
 	extent.flush();
 	
 }
+@Test
+public void demo1()
+{
+	ExtentTest test=extent.createTest("test1");
+	System.out.println("this test is made for practising git");
+	test.log(Status.PASS, "This project is take from git, initialy made in udemy workspace, this method"
+			+ "is added in Udemy worspace and push to GIT");
+	extent.flush();
+}
 @BeforeTest
 public void config() {
 	String path=System.getProperty("user.dir")+"\\reports\\index.html";

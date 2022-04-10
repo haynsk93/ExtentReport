@@ -34,6 +34,15 @@ public void test1() {
 extent.flush(); // to tell that test is over. it can be added at end of  test
 driver.quit();
 }
+@Test
+public void demo() {
+	ExtentTest test=extent.createTest("test1");
+	System.out.println("this test is made for practising git");
+	test.log(Status.PASS, "This project is take from git, initialy made in udemy workspace, this method"
+			+ "is added in Nikul worspace and push to GIT");
+	extent.flush();
+	
+}
 @BeforeTest
 public void config() {
 	String path=System.getProperty("user.dir")+"\\reports\\index.html";
